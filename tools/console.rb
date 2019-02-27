@@ -8,5 +8,32 @@ end
 # This is a convenient place to define variables and/or set up new object instances,
 # so they will be available to test and play around with in your console
 
+
+joe = Viewer.new("Joe")
+brad = Viewer.new("Brad")
+
+
+funny = Movie.new("Funny")
+shitty = Movie.new("Shitty")
+
+
+swag = QueueItem.new(joe,"swag", funny, 99)
+
+double_swag = QueueItem.new(joe,"double_swag", shitty,198)
+
+hip = QueueItem.new(brad,"hip",funny, 74)
+
+hipper = QueueItem.new(brad,"hipper",shitty, 75)
+
+
+
+
+
+
+
+
+
+
+
 binding.pry
 0 #leave this here to ensure binding.pry isn't the last line
