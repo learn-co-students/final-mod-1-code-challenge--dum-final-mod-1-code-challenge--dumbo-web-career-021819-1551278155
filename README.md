@@ -1,7 +1,9 @@
 # Object Relations Assessment
 
 For this challenge, we'll be building out Netflix! A `Viewer` has many `Movie`s through `QueueItem`s. A `Movie` can appear on many `Viewer`s' queues. A `Viewer` can rate a `Movie`, marking their rating on the `QueueItem`.
-
+#A viewer has many movies (through qitems) like a doctor has many patients (through appointments), a movie
+#has many viewers (through qitems--where the movie can be rated) like a patient has many doctors. Keep the source
+#of truth in the qitems 
 As always, make sure to sketch out your domain and think about the single source of truth for your data.
 
 ## Topics
